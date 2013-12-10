@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FF000000"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/favorite_pet_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="Arial"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFFFF"
+        android:text="Click on button below to see my favorite pet"
+        android:textSize="23sp" />
+    
+    <Button
+        android:id="@+id/favorite_pet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/favorite_pet_text"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:text="Favorite Pet" 
+        android:textSize="20dp"/>
+    
+    <TextView
+        android:id="@+id/favorite_color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="Arial"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFFFF"
+        android:layout_below="@+id/favorite_pet_button"
+        android:text="Click on button below to see my favorite color"
+        android:textSize="23sp" />
+    
+    <Button
+        android:id="@+id/favorite_color_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/favorite_color_text"
+        android:text="Favorite Color" 
+        android:textSize="20dp"/>
+    
+</RelativeLayout>
